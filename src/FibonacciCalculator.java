@@ -1,6 +1,12 @@
 public class FibonacciCalculator {
 
     // Recursive static method to return the nth term in the Fibonacci sequence
+    /**
+     * Calculates the nth term in the Fibonacci sequence.
+     *
+     * @param n the position of the term in the Fibonacci sequence to calculate
+     * @return the nth term in the Fibonacci sequence
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
